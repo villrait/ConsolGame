@@ -2,11 +2,9 @@ import Foundation
 
 class Character {
     var health: Int
-    private var baseAttack: Int
     
-    init(health: Int, baseAttack: Int) {
+    init(health: Int) {
         self.health = health
-        self.baseAttack = baseAttack
     }
     
     func attack(superAttack: Bool) -> Int {

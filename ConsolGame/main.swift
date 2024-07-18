@@ -1,7 +1,7 @@
 import Foundation
 
-let playerCharacter = Character(health: 100, baseAttack: 10)
-let enemyCharacter = Character(health: 80, baseAttack: 8)
+let playerCharacter = Character(health: 100)
+let enemyCharacter = Character(health: 100)
 
 let game = Game(player: playerCharacter, enemy: enemyCharacter)
 game.start()
