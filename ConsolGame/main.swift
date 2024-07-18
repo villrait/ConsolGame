@@ -1,5 +1,13 @@
 import Foundation
 
+let playerCharacter = Character(health: 100, baseAttack: 10)
+let enemyCharacter = Character(health: 80, baseAttack: 8)
+
+let game = Game(player: playerCharacter, enemy: enemyCharacter)
+game.start()
+
+
+/*
 struct Character {
     var health = 100
     var attack = 0
@@ -81,3 +89,4 @@ var enemy = Character()
 
 battle(player: &player, enemy: &enemy)
 
+*/
